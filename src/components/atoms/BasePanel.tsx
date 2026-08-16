@@ -10,7 +10,7 @@ type Props = {
 
 export const BasePanel: FC<Props> = memo((props) => {
   // context呼び出し
-  const panel = useContext(PanelContext);
+  const { panel } = useContext(PanelContext);
   const { panelNum, action } = props;
   // 縦要素番号
   let verNum = 0;

@@ -21,3 +21,10 @@ export type PanelChange = {
   panel: Panel[][];
   total: Total;
 }
+// UNDO用に保存する状態
+export type UndoState = {
+  panel: Panel[][];
+  total: Total;
+  colorNum: number;
+  colorStr: string;
+}
