@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import './App.css';
 import { Home } from './components/pages/Home';
 import { PanelProvider } from './provider/PanelProvider';
 
